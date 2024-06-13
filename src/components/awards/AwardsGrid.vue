@@ -1,5 +1,5 @@
 <template>
-  <base-container title="Awards">
+  <base-container title="Certificate">
     <single-award v-for="award in awards" :key="award.id" :award="award" />
   </base-container>
 </template>

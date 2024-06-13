@@ -1,5 +1,5 @@
 <template>
-  <BaseContainer title="I work on...">
+  <BaseContainer title="Technical Skills">
     <SingleSkill v-for="skill in skills" :key="skill.id" :skill="skill" />
   </BaseContainer>
 </template>

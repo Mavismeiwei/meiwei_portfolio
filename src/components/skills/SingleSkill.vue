@@ -84,39 +84,19 @@ span:hover {
   transform: translate3d(0px, -5px, 0px);
 }
 
-.vuejs:hover {
-  color: #fff;
-  background-color: #4fc08d;
-}
-
-.bulma:hover {
-  color: #fff;
-  background-color: #00d1b2;
-}
-
-.bootstrap:hover {
-  color: #fff;
-  background-color: #7952b3;
-}
-
-.typescript:hover {
-  color: #fff;
-  background-color: #3178c6;
-}
-
 .java:hover {
   color: #fff;
   background-color: #007396;
 }
 
-.groovy:hover {
+.python:hover {
   color: #fff;
-  background-color: #4298b8;
+  background-color: #0faed6;
 }
 
-.solr:hover {
+.nodejs:hover {
   color: #fff;
-  background-color: #d9411e;
+  background-color: #4ab93b;
 }
 
 .spring:hover {
@@ -124,9 +104,64 @@ span:hover {
   background-color: #6db33f;
 }
 
-.kotlin:hover {
+.django:hover {
   color: #fff;
-  background-color: #0095d5;
+  background-color: #3f79b3;
+}
+
+.expressjs:hover {
+  color: #fff;
+  background-color: #4fc08d;
+}
+
+.mysql:hover {
+  color: #fff;
+  background-color: #ff6f00;
+}
+
+.mongodb:hover {
+  color: #fff;
+  background-color: #ffd900;
+}
+
+.js:hover {
+  color: #fff;
+  background-color: #eb8602;
+}
+
+.reactjs:hover {
+  color: #fff;
+  background-color: #00d1b2;
+}
+
+.vuejs:hover {
+  color: #fff;
+  background-color: #4fc08d;
+}
+
+.angular:hover {
+  color: #fff;
+  background-color: #00d1b2;
+}
+
+.typescript:hover {
+  color: #fff;
+  background-color: #3178c6;
+}
+
+.bootstrap:hover {
+  color: #fff;
+  background-color: #7952b3;
+}
+
+.jira:hover {
+  color: #fff;
+  background-color: #d9411e;
+}
+
+.confluence:hover {
+  color: #fff;
+  background-color: #d9411e;
 }
 
 .docker:hover {
@@ -134,23 +169,13 @@ span:hover {
   background-color: #2496ed;
 }
 
-.tensorflow:hover {
+.cicd:hover {
   color: #fff;
   background-color: #ff6f00;
 }
 
-.pytorch:hover {
+.jenkins:hover {
   color: #fff;
-  background-color: #ee4c2c;
-}
-
-.opencv:hover {
-  color: #fff;
-  background-color: #5c3ee8;
-}
-
-.js:hover {
-  color: #000;
-  background-color: #f7df1e;
+  background-color: #a21386;
 }
 </style>

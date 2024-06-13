@@ -1,27 +1,37 @@
 <template>
   <!-- Menu -->
-  <MenuVue :links="links">> # ~ / nikita<span class="prim">r</span></MenuVue>
+  <MenuVue :links="links"> <span class="prim"> Meiwei Zhang </span></MenuVue>
   <HeroSection id="hero" pic="header.png">
-    <template v-slot:welcome>Welcome!</template>
-    My name is <b>Nikita Rusetskii</b> and I'm a
-    <hi-word>software engineer</hi-word>. My passion is building
-    <hi-word>web applications</hi-word> and
-    <hi-word>designing websites</hi-word> using modern frameworks. Also I'm
-    doing research in <hi-word>machine learning</hi-word> applied to renewable
-    energy
+    <template v-slot:welcome>Hello!</template>
+    <p>
+      I'm Meiwei Zhang, a passionate
+      <hi-word>full stack developer</hi-word>
+      on a mission to create innovative and impactful software solutions.
+      Currently, I'm pursuing a Master of Science in Information Systems at
+      Northeastern University.
+    </p>
+    <p>
+      From building dynamic <hi-word>web applications</hi-word> to crafting
+      seamless user experiences, I thrive in environments that challenge me to
+      think creatively and solve complex problems. Feel free to explore my work
+      and reach out if you have any questions or opportunities. Let's create
+      something amazing together!
+    </p>
     <template v-slot:buttons>
       <simple-button
         class="btn-primary text-white"
-        url="https://linkedin.com/in/xtenzq"
+        url="https://www.linkedin.com/in/meiwei-zhang/"
         icon="fab linkedin-in"
-        >Hire me!</simple-button
       >
+        Hire me!
+      </simple-button>
       <simple-button
         class="btn-outline-secondary"
-        url="mailto:rusetscky@outlook.com"
-        icon="fa-regular fa-file-lines"
-        >Contact me</simple-button
+        url="https://github.com/Mavismeiwei"
+        icon="fab github"
       >
+        My Code Repo
+      </simple-button>
     </template>
   </HeroSection>
   <SkillsGrid id="skills" :skills="skills" />
@@ -67,7 +77,7 @@ export default {
           url: "#edu-exp",
         },
         {
-          name: "awards",
+          name: "certificate",
           url: "#awards",
         },
         {
@@ -83,15 +93,15 @@ export default {
         {
           id: 1,
           icon: "fab linkedin-in",
-          url: "https://linkedin.com/in/xtenzq",
+          url: "https://www.linkedin.com/in/meiwei-zhang/",
         },
         {
           id: 2,
           icon: "fab github",
-          url: "https://github.com/xtenzq",
+          url: "https://github.com/Mavismeiwei",
         },
       ],
-      copyright: "2022 Nikita Rusetskii",
+      copyright: "2024 Meiwei Zhang",
     };
   },
   components: {

@@ -31,6 +31,7 @@
     <!--///container-->
   </section>
 </template>
+
 <script>
 import SingleProject from "./SingleProject.vue";
 import ProjectFilter from "./ProjectFilter.vue";
@@ -77,6 +78,7 @@ export default {
   },
 };
 </script>
+
 <style lang="scss">
 .tags .tag {
   &:not(:last-child) {

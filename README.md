@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-🚀 <a href="https://github.com/xtenzQ">Nikita Rusetskii</a> portfolio website in flat design made with Vue.js and Bootstrap 5
+🚀 <a href="https://github.com/xtenzQ">Jiale Fang</a> portfolio website in flat design made with Vue.js and Bootstrap 5
 </p></br>
 
 <p align="center">
@@ -60,7 +60,7 @@ Like the website or got inspired by it? Please support it by joining __[stargaze
 ```
 MIT License
 
-Copyright (c) 2022 Nikita Rusetskii
+Copyright (c) 2024 Meiwei Zhang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

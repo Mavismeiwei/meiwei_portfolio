@@ -33,40 +33,26 @@ import { useMeta } from "vue-meta";
 export default {
   data: () => {
     return {
-      webTitle: "Nikita RUSETSKII - Backend Developer",
+      webTitle: "Meiwei Zhang - Full Stack Developer",
     };
   },
   setup() {
     useMeta({
-      title: "Nikita RUSETSKII - Backend Developer",
+      title: "Meiwei Zhang - Full Stack Developer",
       description: "Just a guy with passion for coding",
       htmlAttrs: {
         lang: "en",
         amp: true,
       },
-      twitter: {
-        title: "Nikita RUSETSKII - Backend Developer",
-        description: "Just a guy with passion for coding",
-        card: "summary_large_image",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
-      },
-      og: {
-        title: "Nikita RUSETSKII - Backend Developer",
-        description: "Just a guy with passion for coding",
-        type: "website",
-        url: "https://rusetskii.dev/",
-        image: "https://rusetskii.dev" + require(`@/assets/images/preview.jpg`),
-        site_name: "Nikita RUSETSKII - Backend Developer",
-      },
       meta: [
         {
           name: "keywords",
           content:
-            "software developer, software engineer, backend developer, fullstack developer, machine learning engineer, AI researcher, developer portfolio",
+            "software developer, software engineer, backend developer, fullstack developer, developer portfolio",
         },
         {
           name: "author",
-          content: "Nikita Rusetskii",
+          content: "Meiwei Zhang",
         },
       ],
       link: [

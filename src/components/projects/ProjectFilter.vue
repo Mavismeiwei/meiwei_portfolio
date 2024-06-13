@@ -9,7 +9,7 @@ export default {
     },
     selectOptions: {
       type: Array,
-      default: () => ["Web Development", "Machine Learning"],
+      default: () => ["Web Development", "Devops"],
     },
   },
 };

@@ -1,33 +1,43 @@
 const projects = [
   {
     id: 1,
-    title: "My Uni Lab Website",
-    image: "ml-lab.png",
-    url: "https://compvis.ru/",
+    title: "1 Thing Org. - Together App",
+    image: "together.jpg",
+    url: "https://github.com/Mavismeiwei/together-app",
     category: "Web Development",
-    tags: ["Bootstrap"],
+    tags: ["TypeScript", "React Native", "Moblie Application"],
     description:
-      "Website for research interinstitutional group Machine Learning, Computer Vision, and Dynamic Systems",
+      "Developed a mobile application using TypeScript and React Native for efficient event scheduling, with reusable components for streamlined development.",
   },
   {
     id: 2,
-    title: "SmartChange",
-    image: "smartchange.png",
-    url: "https://github.com/xtenzQ/SmartChange",
-    category: "Machine Learning",
-    tags: ["Python", "Vue.js", "Flask", "PyTorch"],
+    title: "Full Stack Blog - Food Blog",
+    image: "foodblog.png",
+    url: "https://github.com/Mavismeiwei/BlogProject",
+    category: "Web Development",
+    tags: ["Angular", "Spring Boot", "Middleware"],
     description:
-      "Third winner in SIA track of JunctionX Seoul 2021 hackathon. AI-powered web application able to track changes in the urban landscape.",
+      "Built a user-friendly food blog with Vue.js and JQuery for the frontend and Django for the backend, including real-time recipe updates and user interaction features.",
   },
   {
     id: 3,
-    title: "SmartMonitor",
-    image: "smartmonitor.png",
-    url: "https://github.com/xtenzQ/SmartMonitor",
-    category: "Machine Learning",
-    tags: ["C#", "ASP.NET Core", "OpenCV", "Tensorflow"],
+    title: "Full Stack E-Commerce Platform",
+    image: "e-commerce.png",
+    url: "https://github.com/Mavismeiwei/E-Commerce-Application",
+    category: "Web Development",
+    tags: ["Django", "Vue.js", "Node.js", "Express.js"],
     description:
-      "Third winner in SIA track of JunctionX Seoul 2020 hackathon. Detects damaged building by natural disasters and get a brief information about it.",
+      "Developed a responsive e-commerce website using Angular for the frontend and Spring Boot for the backend, integrating PayPal for secure transactions.",
+  },
+  {
+    id: 4,
+    title: "Full Stack MERN Website - Animal House Website",
+    image: "animal.png",
+    url: "https://github.com/Mavismeiwei/Animal_House_Website",
+    category: "Web Development",
+    tags: ["MERN Stack", "Restful API"],
+    description:
+      "Created a responsive web application using React and Tailwind CSS for the frontend, with Express.js and MongoDB for the backend, enabling seamless client-server communication.",
   },
 ];
 

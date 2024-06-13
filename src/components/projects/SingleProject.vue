@@ -1,9 +1,5 @@
 <template>
-  <router-link
-    to="/projects/single-project"
-    class="col-12 col-lg-4 mb-3 mb-md-5"
-    aria-label="Single Project"
-  >
+  <div class="col-12 col-lg-6 mb-3 mb-md-5" aria-label="Single Project">
     <div
       class="card rounded-0 border-0 shadow-sm mb-lg-0"
       data-aos="fade-up"
@@ -40,12 +36,14 @@
       </div>
     </div>
     <!--//card-->
-  </router-link>
+  </div>
 </template>
+
 <script>
 export default {
   name: "SingleProject",
   props: ["project"],
 };
 </script>
+
 <style></style>

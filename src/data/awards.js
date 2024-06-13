@@ -1,35 +1,19 @@
 const awards = [
   {
     id: 1,
-    title: "JunctionX Seoul 2021 SI Analytics 3rd Winner",
-    date: "21 - 23 of May, 2021",
-    image: "junction2021.jpg",
+    title: "AWS Certified Solutions Architect - Associate",
+    date: "January 29, 2024",
+    image: "aws-solutions-architect.jpg",
     description:
-      "3rd place in Satellite Image Analysis track with AI-powered web application able to track changes in the urban landscape",
+      "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
   },
   {
     id: 2,
-    title: "IEEE Seoul Section Student Paper Contest Bronze Award",
-    date: "12th of December, 2020",
-    image: "IEEE_diploma.png",
+    title: "AWS Certified Cloud Practitioner",
+    date: "August 02, 2023",
+    image: "aws-cloud-practitioner.jpg",
     description:
-      "For paper «The Optimal Operation of Energy Storage System with Distributed Generators by Using Data-based Prediction Method»",
-  },
-  {
-    id: 3,
-    title: "JunctionX Seoul 2020 SI Analytics 3rd Winner",
-    date: "9 - 11th of October, 2020",
-    image: "junction2020.jpg",
-    description:
-      "3rd place in Satellite Image Analysis track with project natural disaster tracker SmartMonitor",
-  },
-  {
-    id: 4,
-    title:
-      "52nd KIEE Summer Conference 2021 Graduate Students Outstanding Paper Award",
-    date: "14 - 17th of July, 2021",
-    image: "2021_KIEE_Award.png",
-    description: "Excellence Prize",
+      "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
   },
 ];
 
