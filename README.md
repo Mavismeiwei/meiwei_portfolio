@@ -1,27 +1,19 @@
-<h1 align="center">Vue.js & Bootstrap Developer Portfolio</h1>
+<h1 align="center">Meiwei Zhang Portfolio</h1>
 
 <p align="center">
-  <a href="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml"><img src="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/build.yml/badge.svg" /></a> 
-  <a href="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment"><img src="https://github.com/xtenzQ/xtenzQ.github.io/actions/workflows/pages/pages-build-deployment/badge.svg" /></a>
+ <img src="./src/assets/images/home.jpg" /></a> 
+ <a href="https://github.com/Mavismeiwei"></a>
   <br>
 </p>
 
 <p align="center">
-🚀 <a href="https://github.com/xtenzQ">Meiwei Zhang</a> portfolio website in flat design made with Vue.js and Bootstrap 5
+🚀 <a href="https://github.com/Mavismeiwei">Meiwei Zhang</a> portfolio website in flat design made with Vue.js and Bootstrap 5
 </p></br>
-
-<p align="center">
-  <img src="https://repository-images.githubusercontent.com/190986196/62ae63d6-59b0-499b-b506-58e0e6d0670b" />
-</p>
 
 ## 🛠 Tech Stacks
 - [Vue.js v3](https://github.com/vuejs/core) for building UI;
 - [Bootstrap 5.2](https://github.com/twbs/bootstrap) for flat and clean responsive design;
 - [Font Awesome 6](https://github.com/FortAwesome/Font-Awesome) for icons.
-
-## 🚀 To-do
-- [ ] Add blog;
-- [ ] Enable AOS animations.
 
 ## ©️ Reference
 - Pics are from **[Shutterstock](https://www.shutterstock.com/)**.
@@ -45,16 +37,9 @@ npm run serve
 
 Website is built into `dist` directory.
 
-❗**Don't forget to change/remove my `CNAME` file before deployment!**
 
 ## 🤖 GitHub Workflows
 Sources are automatically built on push and deployed into `gh-pages` branch with GitHub Pages.
-
-## 🤝 Contribution
-I'd love to accept your contributions to this project. I use GitHub pull requests for this purpose. Consult [GitHub Help](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) for more information on using pull requests.
-
-## 🧡 Find this repository useful?
-Like the website or got inspired by it? Please support it by joining __[stargazers](https://github.com/xtenzQ/xtenzQ.github.io/stargazers)__ for this repository. :star:
 
 ## License
 ```
