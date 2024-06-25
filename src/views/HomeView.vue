@@ -1,6 +1,8 @@
 <template>
   <!-- Menu -->
-  <MenuVue :links="links"> <span class="prim"> Meiwei Zhang </span></MenuVue>
+  <MenuVue :links="links">
+    <span class="prim"> Meiwei Zhang </span>
+  </MenuVue>
   <HeroSection id="hero" pic="header.png">
     <template v-slot:welcome>Hello!</template>
     <p>
@@ -38,8 +40,10 @@
   <ExperienceTable id="edu-exp" :experience="experience" />
   <AwardsGrid id="awards" :awards="awards" />
   <ProjectsGrid id="projects" :projects="projects" />
+  <AboutMe id="about" />
   <FooterVue :links="socials" :copyright="copyright" />
 </template>
+
 <script>
 import MenuVue from "@/components/shared/AppMenu.vue";
 import FooterVue from "@/components/shared/AppFooter.vue";
@@ -48,6 +52,7 @@ import SkillsGrid from "@/components/skills/SkillsGrid.vue";
 import ExperienceTable from "@/components/experience/ExperienceTable.vue";
 import AwardsGrid from "@/components/awards/AwardsGrid.vue";
 import ProjectsGrid from "@/components/projects/ProjectsGrid.vue";
+import AboutMe from "@/components/about/AboutMe.vue";
 
 // data to fill components
 import skills from "@/data/skills";
@@ -84,6 +89,10 @@ export default {
           name: "projects",
           url: "#projects",
         },
+        {
+          name: "about",
+          url: "#about",
+        },
       ],
       skills,
       experience,
@@ -112,11 +121,13 @@ export default {
     ExperienceTable,
     AwardsGrid,
     ProjectsGrid,
+    AboutMe,
     SimpleButton,
     HiWord,
   },
 };
 </script>
+
 <style lang="scss" scoped>
 .prim {
   color: $primary;
