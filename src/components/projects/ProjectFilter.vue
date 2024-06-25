@@ -9,7 +9,7 @@ export default {
     },
     selectOptions: {
       type: Array,
-      default: () => ["Web Development", "Devops"],
+      default: () => ["Full Stack Project", "Mobile App Design", "Other"],
     },
   },
 };

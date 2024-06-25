@@ -3,14 +3,13 @@
     <div class="about-section">
       <h3>Background</h3>
       <p>
-        I completed my undergraduate degree in Information Management and
-        Information Systems in China. After graduation, I decided to pursue my
-        passion for technology and moved to the United States to study computer
-        science. This journey from China to the U.S. has been transformative,
-        broadening my horizons and deepening my technical expertise. The
-        decision to study computer science stemmed from my fascination with how
-        technology can solve real-world problems and create innovative
-        solutions.
+        My journey in the world of technology began with an undergraduate degree
+        in Information Management and Information Systems in China. Eager to
+        dive deeper, I crossed the oceans to the United States to study computer
+        science. This adventure has not only broadened my horizons but also
+        honed my technical skills. The decision to explore computer science was
+        driven by my fascination with its power to solve real-world problems and
+        create innovative solutions.
       </p>
       <div class="img-row">
         <img
@@ -34,14 +33,12 @@
         <div class="split-left">
           <h3>Why Computer Science</h3>
           <p>
-            My interest in computer science was sparked by the endless
-            possibilities it offers. The ability to create something from
-            nothing and the constant evolution of the field keep me motivated. I
-            am particularly drawn to the problem-solving aspect and the
-            opportunity to work on projects that have real-world applications.
-            Studying computer science allows me to merge my analytical skills
-            with my creative thinking, and I am excited to see where this path
-            will take me.
+            Imagine creating something from nothing, solving puzzles that make a
+            tangible impact on the world, and constantly riding the wave of
+            technological evolution. That's what drew me to computer science.
+            It's a field where analytical skills meet creative thinking, and
+            where each project presents a new challenge and an opportunity to
+            innovate.
           </p>
         </div>
         <img
@@ -60,28 +57,31 @@
         <div class="split-right career-aspirations-section">
           <h3>Career Aspirations</h3>
           <ul>
-            <li>Become a proficient full-stack or software engineer.</li>
+            <li>To become a masterful full-stack or software engineer.</li>
             <li>
-              Build robust and scalable applications that make a difference.
+              Create robust, scalable applications that truly make a difference.
             </li>
-            <li>Continuously learn and grow within the tech industry.</li>
             <li>
-              Lead projects that blend front-end and back-end development.
+              Embrace continuous learning and growth in the tech industry.
             </li>
-            <li>Create seamless and impactful user experiences.</li>
+            <li>
+              Lead innovative projects that seamlessly blend front-end and
+              back-end development.
+            </li>
+            <li>Craft user experiences that leave a lasting impact.</li>
           </ul>
         </div>
       </div>
 
       <h3>Personality and Hobbies</h3>
       <p>
-        Outside of coding, I have a vibrant and active lifestyle. Fitness is a
-        big part of my daily routine—I love hitting the gym and staying active.
-        Traveling is another passion of mine; exploring new places and
-        experiencing different cultures gives me fresh perspectives and
-        inspiration. When I'm not traveling or at the gym, you can find me in
-        the kitchen experimenting with baking recipes. I find baking to be a
-        perfect mix of creativity and precision, much like coding.
+        Life isn't just about coding for me. I lead an active lifestyle filled
+        with vibrant hobbies. Fitness is my daily ritual; I love hitting the gym
+        and staying in shape. Traveling is my way of seeking
+        inspiration—exploring new places and cultures always brings fresh
+        perspectives. And when I'm not traveling or at the gym, you'll find me
+        in the kitchen, occasionally whipping up delicious meals. Cooking is a
+        delightful mix of creativity and precision, much like coding!
       </p>
       <div class="img-row">
         <img
@@ -237,12 +237,19 @@ export default {
     width: 100%;
   }
 
+  .about-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .small-img {
     height: auto;
+    max-width: 100%;
   }
 
   .tall-img {
     height: auto;
+    max-width: 100%;
   }
 }
 </style>

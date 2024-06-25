@@ -8,7 +8,7 @@
     >
       <div class="card-img-container position-relative">
         <img
-          class="card-img-top rounded-0"
+          class="card-img-top rounded-0 project-image"
           :src="require(`@/assets/images/${project.image}`)"
           :alt="project.title"
         />
@@ -46,4 +46,23 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.project-image {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .project-image {
+    height: 200px; /* Adjust as needed for small screens */
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .project-image {
+    height: 300px; /* Adjust as needed for tablet devices */
+    object-fit: cover;
+  }
+}
+</style>

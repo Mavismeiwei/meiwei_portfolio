@@ -1,5 +1,5 @@
 <template>
-  <hero-container>
+  <hero-container class="hero-section">
     <template v-slot:picture><hero-image :src="pic" /></template>
     <hero-text delay="200">
       <template v-slot:welcome><slot name="welcome"></slot></template>
@@ -25,4 +25,16 @@ export default {
   },
 };
 </script>
-<style></style>
+<style scoped>
+@media (max-width: 576px) {
+  .hero-section {
+    margin-bottom: 90vh;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .hero-section {
+    margin-bottom: 20vh;
+  }
+}
+</style>
