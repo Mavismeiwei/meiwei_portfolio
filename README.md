@@ -1,7 +1,7 @@
 <h1 align="center">Meiwei Zhang Portfolio</h1>
 
 <p align="center">
- <img src="./src/assets/images/home.jpg" /></a> 
+ <img src="./src/assets/images/home.jpg" />
  <a href="https://github.com/Mavismeiwei"></a>
   <br>
 </p>
